@@ -16,7 +16,7 @@ app.use('/api', router);
 app.get('/', (req: Request, res: Response) => {
     res.send({
         status: true,
-        message: "Server live⚡"
+        message: "welcome Server live⚡"
     })
 });
 
